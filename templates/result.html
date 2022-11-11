@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+      body {
+        background-color: #FFF5EE;
+      }
+      .columns {
+        display: flex;
+        height: 100vh;
+      }
+
+      p {
+        font-size:1.5em;
+      }
+
+    </style>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <div class="card">
+            <div class="card-content">
+              <div class="title"><img src="https://img.freepik.com/free-vector/living-room-with-sofa-armchair_107791-11127.jpg?w=1060&t=st=1668147364~exp=1668147964~hmac=8cc623c93a399068dfcdc38cb84a70937476d3f1dcf75be74fad60b5e6de15d1" alt="" width="400" height="400"></div>
+              <div class="content is-large">
+                <h1>Estimated Cost:</h1>
+                <p>₱{{data}}</p>
+              </div>
+              <a href="javascript:window.history.back();">Return to home</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
